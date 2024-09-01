@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/auth_padding"
+    tools:context=".ui.auth.register.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account_label"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/welcomeBackLabel" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Username or email"
+        android:paddingHorizontal="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_auth_input"
+        app:layout_constraintTop_toBottomOf="@id/welcomeBackLabel"
+        android:layout_marginTop="36dp"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/emailEditText" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Password"
+        android:paddingHorizontal="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_auth_input"
+        app:layout_constraintTop_toBottomOf="@id/emailEditText"
+        android:layout_marginTop="31dp"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/passwordEditText" />
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Confirm Password"
+        android:paddingHorizontal="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_auth_input"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        android:layout_marginTop="31dp"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/confirmPasswordEditText" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_desc"
+        android:textColor="#676767"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/confirmPasswordEditText"
+        android:layout_marginTop="19dp" />
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/custom_auth_button"
+        android:textColor="@color/white"
+        android:text="@string/register_label"
+        app:layout_constraintTop_toBottomOf="@id/forgotPassword"
+        android:layout_marginTop="38dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:layout_marginEnd="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/createAccount"
+        android:textColor="@color/input_stroke"
+        android:text="@string/already_have_label"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="134dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:textColor="@color/primary"
+        android:text="@string/login_label"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
+        app:layout_constraintStart_toEndOf="@id/createAccount"
+        android:layout_marginTop="134dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

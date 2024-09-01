@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#F83758</color>
+    <color name="input_color">#F3F3F3</color>
+    <color name="input_stroke">#A8A8A9</color>
+</resources>

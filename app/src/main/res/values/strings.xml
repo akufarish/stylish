@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Stylish</string>
+    <string name="prev">Prev</string>
+    <string name="dummy_text">lorem ipsum</string>
+    <string name="next_label">Next</string>
+    <string name="welcome_back_label">Welcome\nBack!</string>
+    <string name="login_label">Login</string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="create_an_account_label">Create An Account</string>
+    <string name="create_account_label">Create an\naccount</string>
+    <string name="register_desc">By clicking the Register button, you agree\nto the public offer?</string>
+    <string name="register_label">Create Account</string>
+    <string name="already_have_label">I Already Have an Account</string>
+    <string name="forgot_password_label">Forgot\npassword?</string>
+    <string name="submit_label">Submit</string>
+    <string name="forgot_password_desc">* We will send you a message to set or reset your new password?</string>
+</resources>
