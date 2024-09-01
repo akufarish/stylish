@@ -5,4 +5,5 @@
     <color name="primary">#F83758</color>
     <color name="input_color">#F3F3F3</color>
     <color name="input_stroke">#A8A8A9</color>
+    <color name="bg">#FDFDFD</color>
 </resources>
